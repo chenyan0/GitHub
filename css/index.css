@@ -1,0 +1,276 @@
+body{
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	min-width:980px;
+
+}
+h1,h2,h3,h4,h5,h6,ul,p,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*使用ul和li时去掉默认的小圆点*/
+}
+a{
+	color: #4078c0;
+	text-decoration: none;
+
+}
+a:hover{
+	text-decoration: underline;
+}
+.section{
+	padding: 80px 0;
+	border-bottom: 1px solid #ccc;
+
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+	/*border: 1px solid black;*/
+
+}
+.sub-info{
+	color: #767676;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.gh-image{
+	margin-top: 30px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 6px 6px 10px #f5f5f5,-6px 0px 10px #f5f5f5;
+}
+.sub-title{
+	color: #333;
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+}
+.btn{
+	text-align: center;
+	color: #f5f5f5;
+	padding: 12px 20px;
+	font-size: 18px;
+	border-radius: 6px;/*css3*/
+	/*border: 1px solid white;*/
+}
+/*---------------------------------------------------头部开始----------------------------------------------------------------*/
+.header{
+	padding: 15px 0;
+	/*border: 3px solid red;*/
+	background :#f5f5f5;
+}
+.header-c{
+	height: 28px;
+	line-height: 28px;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+.logo:hover{
+	color: #4078c0;
+}
+.search{
+	float: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background :#fff;
+	width: 360px;
+	height: 26px;
+	padding-left:15px;
+	font-size: 12px; 
+	color: #ccc;
+	margin-right: 10px;
+}
+
+.functionlist{
+	float: left;
+}
+.functionlist li{
+	float: left;
+	padding: 0 6px;
+	font-size: 13px;
+	font-weight: bold;
+}
+.functionlist li:hover{
+	color: #4078c0;
+}
+/*群组选择器*/
+.signin,.signup{
+	float: right;
+	padding: 6px 12px;
+	border: 1px solid #d5d5d5;
+	font-size: 13px;
+	border-radius: 5px;
+	margin-top: -7px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: bold;
+}
+.signin{
+	background-image: linear-gardient(#fcfcfc,#eee);
+	margin-left: 10px;
+}
+.signin:hover{
+	background: #eee;
+}
+.signup{
+	background-image: linear-gradient(#8add6d,#60b044);
+	color: white;
+}
+.signup:hover{
+	background: #569e3d;
+}
+
+/*-------------------------------------------------------第一部分开始------------------------------------------------------------*/
+.main{
+	background: #202020 url("../img/octicons-bg.png")center repeat ; 
+	border-bottom: none;
+}
+/*待优化 浮动造成的收缩问题*/
+.main-c{
+	height: 351px;
+}
+.main-intro{
+	width: 620px;
+	/*border: 1px solid red;*/
+	color: #fff;
+	float: left;
+}
+.big-title{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom: 15px;
+	font-weight: normal;
+
+}
+.main-intro p{
+	font-size: 21px;
+	line-height: 1.5;
+	margin: 10px 0 0;
+
+}
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border: 1px solid white;*/
+	float: right;
+}
+
+.textfield{
+	background:#fff;
+	border:1px solid #ccc;
+	padding:10px; 
+	margin-bottom:10px;
+	line-height: 22px;
+	color: #ccc;
+	font-size: 16px;
+	border-radius: 5px;
+}
+.signup-info{
+	margin: 10px 0;
+	color:#767676; 
+	font-size:13px;
+
+}
+.btn-signup{
+	background-image: linear-gradient(#8add6d, #60b044);
+	border:0px;
+}
+/*-------------------------------------------------------第二部分--------------------------------------------------------------------*/
+.enterprise{
+	position: relative;
+	height: 198px;
+	background-image: linear-gradient(#202d5f,#614381);
+	overflow: hidden;
+}
+
+/*后代选择器*/
+.enterprise h2{
+	color: #f5f5f5;
+} 
+
+.enterprise img{
+	border: none;
+	box-shadow:none;
+	
+}
+.btn-zhong{
+	text-align: center;
+	margin: 12px;
+}
+.btn-blue{
+	display: inline-block;
+	border: none;
+	background-image: linear-gradient(#45b3f3, #1d6ac8);
+}
+/*--------------------------------------------------第三部分开始--------------------------------------------------------------*/
+.love{
+	height: 600px;
+}
+.love-reason{
+	width: 440px;
+	height: 195px;
+	padding: 20px 25px 40px 25px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+}
+
+.love-reason h3{
+	font-size: 21px;	
+	font-weight: normal;
+
+}
+.love-reason p{
+	font-size: 14px;
+}
+.l-img{
+	width: 100px;
+	height: 100px;
+	margin: 0 auto ;	
+}
+
+
+/*----------------------------------------------第四部分开始----------------------------------------------------------------------------*/
+.btn-green{
+	/*width: 288px;
+	margin: 15px auto 0;*/
+	display: inline-block;
+	background-image: linear-gradient(#8add6d, #60b044);
+
+}
+.container h3{
+	font-size: 21px;
+	font-weight: normal;
+	padding-top: 20px;
+	color: #333;
+	text-align: center;
+}
+/*------------------------------------------------尾部开始------------------------------------------------------*/
+.footer {
+	padding: 50px 0;
+}
+.left li,.right li{
+	float: left;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.left li{
+	float: left;
+}
+.right li
+{
+	float: right;
+}
+.cat{
+	width: 370px;
+	float: left;
+	text-align: center;
+}
